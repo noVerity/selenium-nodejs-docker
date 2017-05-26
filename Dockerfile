@@ -10,6 +10,7 @@ RUN apt-get update &&  apt-get install -y \
 RUN add-apt-repository ppa:nilarimogard/webupd8 && \
 	apt-get update &&  apt-get install -y \
 	curl \
+	git \
 	launchpad-getkeys \
  && rm -rf /var/lib/apt/lists/*
 
